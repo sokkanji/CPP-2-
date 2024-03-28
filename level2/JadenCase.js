@@ -6,7 +6,7 @@ function solution(s) {
             isUpper || i === 0 
             ? result + value.toUpperCase() 
             : result + value.toLowerCase();
-        isUpper = value  === ' ' ? true : false;
+        isUpper = value  === ' ';
     });
 
     
