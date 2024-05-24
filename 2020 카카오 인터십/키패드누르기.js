@@ -1,8 +1,6 @@
 function getDistance(target, handLocation) {
   // 행의 인덱스 거리 + 열의 인덱스 거리
-  const distance = Math.abs(target[0] - handLocation[0]) + Math.abs(target[1] - handLocation[1]);
-
-  return distance;
+  return Math.abs(target[0] - handLocation[0]) + Math.abs(target[1] - handLocation[1]);
 }
 
 function solution(numbers, hand) {
